@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                <h1>Feedback Form</h1>
+            </legend>
+            <div>
+                <ul type="disc">
+                    <li><b>Name: <input type="text" name="name" placeholder="Enter your name" required></b></li><br>
+                    <li><b>E-Mail: <input type="email" name="email" placeholder="Enter your email"></b></li><br>
+                    <li><b>Password: <input type="password" name="password" placeholder="Enter your password"
+                                required></b></li>
+                    <br>
+                    <li><b>Kindely check your applied emotion</b></li>
+                    <ul type="circle">
+                        <li>Angry: <input type="checkbox" name="emotion" id="angry"></li>
+                        <li>Happy:<input type="checkbox" name="emotion" id="happy"> </li>
+                        <li>Sad:<input type="checkbox" name="emotion" id="sad"> </li>
+                        <li>Ambivalent:<input type="checkbox" name="emotion" id="ambivalent"> </li>
+                    </ul>
+                    <li><b>How satisfied you were with our service</b></li>
+                    <ul type="circle">
+                        <li>Very sastisfied: <input type="radio" name="service" id="very_satisfied"></li>
+                        <li>Satisfied: <input type="radio" name="service" id="satisfied"></li>
+                        <li>Neutral: <input type="radio" name="service" id="neutral"></li>
+                        <li>Dissatisfied: <input type="radio" name="service" id="Dissatisfied"></li>
+                    </ul>
+                    <li><b>Any suggestions: <textarea name="suggestions" id="suggestions" cols="30"
+                                rows="6"></textarea></b></li><br>
+                    <li><b>Bio photo: <input type="image" src="" alt="upload"></b></li><br>
+                    <li><b>Locations visited:</b>
+                        <select name="location visited" id="location visited">
+                            <option value="">--Select location--</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Delhi">delhi</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Puri">puri</option>
+                        </select>
+                    </li><br>
+
+                    <input type="button" value="submit" nbsp></button>
+                </ul>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
